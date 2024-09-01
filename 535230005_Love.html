@@ -23,126 +23,122 @@
                 box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             }
 
-            header {
-            display: flex;
-            align-items: center;
-            border-bottom: 2px solid #ddd;
-            padding-bottom: 20px;
-            flex-wrap: wrap;
-        }
-
-        .pp img {
-            border-radius: 50%;
-            width: 120px;
-            height: 120px;
-        }
-
+            .pp img {
+                border-radius: 50%;
+                width: 120px;
+                height: 120px;
+            }
+       
         .headerInfo {
-            margin-left: 20px;
-            flex-grow: 1;
-        }
-
-        .headerInfo h1 {
-            margin: 0;
-            font-size: 24px;
-            color: #333;
-        }
-
-        .headerInfo p {
-            margin: 5px 0;
-            color: #777;
-        }
-
-        .section-title {
-            background: #333;
-            color: white;
-            padding: 10px;
-            margin-bottom: 10px;
-        }
-
-        .section {
-            margin-bottom: 20px;
-        }
-
-        .work, .education, .skills .interests {
-            display: flex;
-            flex-direction: column;
-            gap: 15px;
-        }
-
-        .item {
-            padding: 10px;
-            border-left: 3px solid #333;
-            background: #f9f9f9;
-        }
-
-        .item h3 {
-            margin-top: 0;
-            color: #333;
-        }
-
-        .skills .skill-item {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        .skills .skill-bar {
-            width: 70%;
-            height: 10px;
-            background: #ddd;
-            border-radius: 5px;
-            overflow: hidden;
-        }
-
-        .skills .skill-bar div {
-            height: 100%;
-            background: #333;
-        }
-
-        .interests {
-            display: flex;
-            justify-content: space-around;
-            flex-wrap: wrap;
-        }
-
-        .interests .interest-item {
-            text-align: center;
-            flex: 1;
-            min-width: 100px;
-        }
-
-        @media (max-width: 768px) {
-            .header-info {
-                margin-left: 0;
-                text-align: center;
-                margin-top: 20px;
+                margin-left: 20px;
+                flex-grow: 1;
             }
 
-            .profile-pic, .header-info {
-                flex-basis: 100%;
-                text-align: center;
+            .headerInfo h1 {
+                margin: 0;
+                font-size: 24px;
+                color: #333;
+            }
+
+            .headerInfo p {
+                margin: 5px 0;
+                color: #777;
+            }
+
+            .section-title {
+                background: #333;
+                color: white;
+                padding: 10px;
+                margin-bottom: 10px;
+            }
+
+            .section {
+                margin-bottom: 20px;
+            }
+
+            .work, .education, .skills, .interests {
+                display: flex;
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            .item {
+                padding: 10px;
+                border-left: 3px solid #333;
+                background: #f9f9f9;
+            }
+
+            .item h3 {
+                margin-top: 0;
+                color: #333;
             }
 
             .skills .skill-item {
-                flex-direction: column;
-                align-items: flex-start;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
             }
 
             .skills .skill-bar {
-                width: 100%;
+                width: 70%;
+                height: 10px;
+                background: #ddd;
+                border-radius: 5px;
+                overflow: hidden;
             }
-        }
 
-        @media (max-width: 480px) {
-            .section-title {
-                text-align: center;
+            .skills .skill-bar div {
+                height: 100%;
+                background: #333;
             }
 
             .interests {
-                flex-direction: column;
+                display: flex;
+                justify-content: space-around;
+                flex-wrap: wrap;
             }
-        }
+
+            .interests .interest-item {
+                text-align: center;
+                flex: 1;
+                min-width: 100px;
+            }
+
+            @media (max-width: 768px) {
+                .headerInfo {
+                    margin-left: 0;
+                    text-align: center;
+                    margin-top: 20px;
+                }
+
+                .pp, .headerInfo {
+                    flex-basis: 100%;
+                    text-align: center;
+                }
+
+                .skills .skill-item {
+                    flex-direction: column;
+                    align-items: flex-start;
+                }
+
+                .skills .skill-bar {
+                    width: 100%;
+                }
+            }
+
+            @media (max-width: 480px) {
+                .section-title {
+                    text-align: center;
+                }
+
+                .interests {
+                    flex-direction: column;
+                }
+            }
+
+        </style>
+    </head>
+
 
         </style>
 
