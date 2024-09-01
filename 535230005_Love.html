@@ -1,0 +1,250 @@
+<html>
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Love Hillary -CV</title>
+
+        <style>
+            body {
+                font-family: 'Times New Roman', Times, serif;
+                line-height: 1.6;
+                margin: 0;
+                padding: 0;
+                background-color: #f4f4f4;
+            }
+
+            .container {
+                width: 90%;
+                max-width: 1200px;
+                margin: 20 px auto;
+                background-color: whitesmoke;
+                padding: 20px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            }
+
+            header {
+            display: flex;
+            align-items: center;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 20px;
+            flex-wrap: wrap;
+        }
+
+        .pp img {
+            border-radius: 50%;
+            width: 120px;
+            height: 120px;
+        }
+
+        .headerInfo {
+            margin-left: 20px;
+            flex-grow: 1;
+        }
+
+        .headerInfo h1 {
+            margin: 0;
+            font-size: 24px;
+            color: #333;
+        }
+
+        .headerInfo p {
+            margin: 5px 0;
+            color: #777;
+        }
+
+        .section-title {
+            background: #333;
+            color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+
+        .section {
+            margin-bottom: 20px;
+        }
+
+        .work, .education, .skills .interests {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .item {
+            padding: 10px;
+            border-left: 3px solid #333;
+            background: #f9f9f9;
+        }
+
+        .item h3 {
+            margin-top: 0;
+            color: #333;
+        }
+
+        .skills .skill-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .skills .skill-bar {
+            width: 70%;
+            height: 10px;
+            background: #ddd;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+
+        .skills .skill-bar div {
+            height: 100%;
+            background: #333;
+        }
+
+        .interests {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .interests .interest-item {
+            text-align: center;
+            flex: 1;
+            min-width: 100px;
+        }
+
+        @media (max-width: 768px) {
+            .header-info {
+                margin-left: 0;
+                text-align: center;
+                margin-top: 20px;
+            }
+
+            .profile-pic, .header-info {
+                flex-basis: 100%;
+                text-align: center;
+            }
+
+            .skills .skill-item {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .skills .skill-bar {
+                width: 100%;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .section-title {
+                text-align: center;
+            }
+
+            .interests {
+                flex-direction: column;
+            }
+        }
+
+        </style>
+
+    </head>
+
+    <body>
+
+        <div class="container">
+            <header>
+                <div class="pp">
+                    <img src="pp.jpg" alt="Love Hillary Swigo">
+                </div>
+                <div class="headerInfo">
+                    <h1>Love Hillary Swigo</h1>
+                    <p>Undergraduate Informatics Engineer</p>
+                    <p>Tomang, West Jakarta</p>
+                    <p>+62-812-4330-6818</p>
+                </div>
+            </header>
+
+            <section class="profile">
+                <h2 class="section-title">Profile</h2>
+                <p> An Undergraduate Informatics Engineering Student at Tarumanagara
+                    university, Who's enjoyed collaborating with people, building
+                    relationships, and Sharing ideas. Being able to balance personal time,
+                    academics, and work is a source of pride for me.
+                    </p>
+            </section>
+
+            <section class="section-experience">
+                <h2 class="section-title">Organizational Experience</h2>
+                <div class="experience">
+                    <h3>Head Of Community Service Department at BEM FTI UNTAR 2024/2025</h3>
+                    <p>July 2024 - Now</p>
+                    <p>Lorem Ipsum</p>
+                </div>
+                <div class="experience">
+                    <h3>Member Of Community Service Department at BEM FTI UNTAR 2023/2024</h3>
+                    <p>November 2023 - July 2024</p>
+                    <p> <ul>
+                        <li>Actively participate as a program activities committee and mingle with everyone</li>
+                        <li>Performing monthly tech-care or social services as a sub activities program</li>
+                        <li>Carrying out fundraising for victims of natural disaster</li>
+                    </ul></p>
+                </div>
+            </section>
+
+            <section class="section education">
+                <h2 class="section-title">Education</h2>
+                <div class="item">
+                    <h3>UNKLAB High School</h3>
+                    <p>2020-2023</p>
+                    <p>5th Place in Science Major with GPA: 95.25/100.00</p>
+                </div>
+                <div class="item">
+                    <h3>Tarumanagara University</h3>
+                    <p>August 2023 - Present</p>
+                    <p>An Informatics Engineering Student</p>
+                </div>
+            </section>
+
+            <section class="section skills">
+                <h2 class="section-title">Professional Skills</h2>
+                <div class="skill-item">
+                    <span>Microsoft Excel</span>
+                    <div class="skill-bar"><div style="width: 95%;"></div></div>
+                </div>
+                <div class="skill-item">
+                    <span>Microsoft Word</span>
+                    <div class="skill-bar"><div style="width: 85%;"></div></div>
+                </div>
+                <div class="skill-item">
+                    <span>Microsoft PowerPoint</span>
+                    <div class="skill-bar"><div style="width: 90%;"></div></div>
+                </div>
+                <div class="skill-item">
+                    <span>Canva</span>
+                    <div class="skill-bar"><div style="width: 85%;"></div></div>
+                </div>
+                <div class="skill-item">
+                    <span>HTML</span>
+                    <div class="skill-bar"><div style="width: 50%;"></div></div>
+                </div>
+                <div class="skill-item">
+                    <span>CSS</span>
+                    <div class="skill-bar"><div style="width: 40%;"></div></div>
+                </div>
+            </section>
+    
+            <section class="section interests">
+                <h2 class="section-title">Interests</h2>
+                <div class="interest-item">
+                    <p>Movie</p>
+                </div>
+                <div class="interest-item">
+                    <p>Travel</p>
+                </div>
+                <div class="interest-item">
+                    <p>Music</p>
+                </div>
+            </section>
+
+        </div>
+    </body>
+</html>
